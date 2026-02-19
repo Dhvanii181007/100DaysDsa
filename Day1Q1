@@ -1,0 +1,17 @@
+#inlcude <stdio.h>
+ int main()
+{ int n;
+scanf("%d",&n);
+int arr{n+1};
+for (int i=0;i<n;i++)
+{ scanf("%d", &arr[i]);
+}
+int pos,x;
+scanf("%d", &pos);
+scanf("%D", &x);
+for(int i=n; i>=pos;i--)
+{printf("%d",arr[i]);
+}
+printf("\n");
+return 0;
+}
